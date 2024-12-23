@@ -16,15 +16,15 @@ Lastly, as a flight cannot be operated without pilots, nor it can take place  wi
      
 <img  src="./assets/graph1.png" alt="image_name png" />
 
-Graph 1. Entity - Relationship model
-------
+##### Graph 1. Entity - Relationship model
+
 
 Graph 2 shows the conversion of the E-R model’s entities and relationships into the relational model format. The relation model uses tables (i.e. relations) to represent the data and their relationships. 
 
 <img  src="./assets/graph2.png" alt="image_name png" />
 
-Graph 2. Relational model
-------
+##### Graph 2. Relational model
+
 
 Each entity set (“Pilots”, “Aircrafts”, “Flights”) has each own table under the relational model as well as its own primary key, which is used to identify a single record from that table.
 
