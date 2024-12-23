@@ -14,13 +14,13 @@ As each flight is assigned only a single aircraft, but aircrafts can be used to 
 
 Lastly, as a flight cannot be operated without pilots, nor it can take place  without an aircraft (i.e. there has to be some relationship between a flight and aircrafts/pilots), then “Flights” are said to be an entity set with “total participation”. On Graph 1, this is delineated with double lines.
      
-![alt text](https://github.com/bearloop/db-design-and-implementation/assets/graph1.png?raw=true)
+![alt text](https://github.com/bearloop/db-design-and-implementation/assets/graph1.png)
 
 Graph 1. Entity - Relationship model
 
 Graph 2 shows the conversion of the E-R model’s entities and relationships into the relational model format. The relation model uses tables (i.e. relations) to represent the data and their relationships. 
 
-![alt text](https://github.com/bearloop/db-design-and-implementation/assets/graph2.png?raw=true)
+![alt text](https://github.com/bearloop/db-design-and-implementation/assets/graph2.png)
 
 Graph 2. Relational model
 Each entity set (“Pilots”, “Aircrafts”, “Flights”) has each own table under the relational model as well as its own primary key, which is used to identify a single record from that table.
